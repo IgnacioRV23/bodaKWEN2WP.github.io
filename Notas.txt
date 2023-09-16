@@ -1,0 +1,10 @@
+Import:
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap');
+</style>
+
+CSS:
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;

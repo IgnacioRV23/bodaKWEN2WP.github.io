@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    color: #876525;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-family: 'Alex Brush', cursive;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #D1D1D1;
+}
+
+.main {
+    background-color: #FBFBFB;
+    background-image: url(scr/img/flores.png);
+    background-size: contain;
+}
+
+/* Inicio estilos para fecha */
+.nombres {
+    font-size: 3rem;
+}
+
+.fecha .borde {
+    padding: 0.5rem;
+    border-top: 1px solid #876525;
+    border-bottom: 1px solid #876525;
+}
+
+.fecha .numero {
+    font-size: 3rem;
+}
+
+/* Fin estilos para fecha */
+
+
+/* Inicio estilos para cuadro invitacion */
+.container_ficha {
+    margin: 0 1rem;
+    padding: 2px;
+    background-color: #876525;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+}
+
+.ficha {
+    padding: 3rem;
+    background-color: #fff;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+}
+
+.ficha p {
+    text-align: justify;
+}
+
+/* Fin estilos para cuadro invitacion */
+
+
+/* Inicio estilos para img invitacion */
+.container_img2 {
+    background-color: #FBFBFB;
+}
+
+.img2,
+.img3 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* Fin estilos para img invitacion */
+
+
+/* Inicio estilos para contador invitacion */
+.reloj {
+    display: flex;
+    
+    align-content: center;
+    justify-content: space-around;
+
+    margin: 0 0.1rem;
+    border-radius: 4px;
+    background-color: #876525;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.reloj div {
+    width: 3.5rem;
+    text-align: center;
+}
+
+.reloj h1 {
+    margin: 0;
+    padding: 0.5rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.reloj p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+}
+
+/* Fin estilos para contador invitacion */
+
+.container_normas {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.norma .parrafo {
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.icon {
+    width: 6rem;
+}
+
+.datos h1 {
+    font-size: 2.6rem;
+}
+
+.datos .icon {
+    width: 4rem;
+}
+
+.datos .confirmar {
+    text-align: justify;
+}
+
+.btn {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-bg: #876525;
+    --bs-btn-border-color: #876525;
+    --bs-btn-hover-color: #876525;
+    --bs-btn-hover-bg: #876525;
+    --bs-btn-hover-border-color: #876525;
+    --bs-btn-focus-shadow-rgb: #876525;
+    --bs-btn-active-color: #876525;
+    --bs-btn-active-bg: #876525;
+    --bs-btn-active-border-color: #876525;
+}
+
+.btn {
+    color: #fff;
+    border: solid #876525;
+    background-color: #876525;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn:visited {
+    color: #fff;
+    border: solid #876525;
+    background-color: #876525;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn:hover {
+    color: #fff;
+    border: solid #876525;
+    background-color: #876525;
+    font-family: 'Playfair Display', serif;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.container_confirmar h1 {
+    font-size: 2.6rem;
+}
+
+footer h1 {
+    font-size: 2.6rem;
+}
+
+
+/* Clases de animacion */
+.reveal {
+    opacity: 0;
+    position: relative;
+    transition: 1s all ease;
+    transform: translateY(150px);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.inicio {
+    margin-bottom: 8rem;
+}
+
+.espacio {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.final {
+    margin-top: 8rem;
+}
+
+.norma {
+    margin: 5rem 0;
+}
+
+.datos {
+    margin: 6rem 0;
+}
