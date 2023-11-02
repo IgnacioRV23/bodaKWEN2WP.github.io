@@ -33,6 +33,10 @@ body {
     background-color: #D1D1D1;
 }
 
+.container_principal {
+    max-width: 700px;
+}
+
 .main {
     background-color: #FBFBFB;
     background-image: url(scr/img/flores.png);
